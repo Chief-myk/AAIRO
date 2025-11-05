@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Accreditations from "./pages/accreditations";
-import Blog from "./pages/Blog";
+import Blog from "./pages/blog";
 import Calendar from "./pages/Calendar";
 import About from "./pages/About";
 import Projects  from "./pages/Projects";
