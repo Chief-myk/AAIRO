@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Index from "./pages/Index";
 import LoadingSpinner from "./components/Loader";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Accreditations from "./pages/Accreditations";
 import Blog from "./pages/Blog";
@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <Router>
-      <Navbar />
+      <NavBar />
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/accreditations" element={<Accreditations />} />
