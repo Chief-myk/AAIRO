@@ -35,43 +35,43 @@ const NavBar = () => {
             {/* Logo */}
             <div className="flex flex-col z-50">
               <span className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent tracking-wide">
-                <Link to="/" className="no-underline text-inherit">
+                <a to="/" className="no-underline text-inherit">
                   AAIRO
-                </Link>
+                </a>
               </span>
               <span className="text-xs md:text-sm text-slate-400 -mt-1 tracking-wide">
-                <Link to="/" className="no-underline text-inherit">
+                <a to="/" className="no-underline text-inherit">
                   Robotics & AI Society
-                </Link>
+                </a>
               </span>
             </div>
 
-            {/* Desktop Navigation Links */}
+            {/* Desktop Navigation as */}
             <div className="hidden md:flex gap-8 items-center">
-              <Link to="/about" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
+              <a to="/about" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 About
-              </Link>
-              <Link to="/projects" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
+              </a>
+              <a to="/projects" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 Projects
-              </Link>
-              <Link to="/blog" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
+              </a>
+              <a to="/blog" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 Blog
-              </Link>
-              <Link to="/calendar" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
+              </a>
+              <a to="/calendar" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 Calendar
-              </Link>
-              <Link to="/accreditations" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
+              </a>
+              <a to="/accreditations" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 Accreditations
-              </Link>
-              <Link to="/membership" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
+              </a>
+              <a to="/membership" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 Membership
-              </Link>
-              <Link to="/gallery" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
+              </a>
+              <a to="/gallery" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 Gallery
-              </Link>
-              <Link to="/contact" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
+              </a>
+              <a to="/contact" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 Contact
-              </Link>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -99,70 +99,70 @@ const NavBar = () => {
           <FaTimes />
         </button>
 
-        {/* Mobile Navigation Links */}
-        <Link 
+        {/* Mobile Navigation as */}
+        <a 
           to="/" 
           className="text-slate-200 py-5 border-b border-blue-500 border-opacity-10 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
           onClick={closeMobileMenu}
         >
           Home
-        </Link>
-        <Link 
+        </a>
+        <a 
           to="/about" 
           className="text-slate-200 py-5 border-b border-blue-500 border-opacity-10 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
           onClick={closeMobileMenu}
         >
           About
-        </Link>
-        <Link 
+        </a>
+        <a 
           to="/projects" 
           className="text-slate-200 py-5 border-b border-blue-500 border-opacity-10 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
           onClick={closeMobileMenu}
         >
           Projects
-        </Link>
-        <Link 
+        </a>
+        <a 
           to="/blog" 
           className="text-slate-200 py-5 border-b border-blue-500 border-opacity-10 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
           onClick={closeMobileMenu}
         >
           Blog
-        </Link>
-        <Link 
+        </a>
+        <a 
           to="/calendar" 
           className="text-slate-200 py-5 border-b border-blue-500 border-opacity-10 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
           onClick={closeMobileMenu}
         >
           Calendar
-        </Link>
-        <Link 
+        </a>
+        <a 
           to="/accreditations" 
           className="text-slate-200 py-5 border-b border-blue-500 border-opacity-10 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
           onClick={closeMobileMenu}
         >
           Accreditations
-        </Link>
-        <Link 
+        </a>
+        <a 
           to="/membership" 
           className="text-slate-200 py-5 border-b border-blue-500 border-opacity-10 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
           onClick={closeMobileMenu}
         >
           Membership
-        </Link>
-        <Link 
+        </a>
+        <a 
           to="/gallery" 
           className="text-slate-200 py-5 border-b border-blue-500 border-opacity-10 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
           onClick={closeMobileMenu}
         >
           Gallery
-        </Link>
-        <Link 
+        </a>
+        <a 
           to="/contact" 
           className="text-slate-200 py-5 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
           onClick={closeMobileMenu}
         >
           Contact
-        </Link>
+        </a>
       </div>
     </>
   );
