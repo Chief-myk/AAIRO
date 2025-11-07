@@ -141,7 +141,7 @@ const News = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-[#0B0E13] font-rajdhani">
+      <div className="min-h-screen bg-[#0B0E13] overflow-hidden font-rajdhani">
       {/* <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 font-rajdhani"> */}
         {/* Animated Background */}
         {/* <div className="fixed inset-0 overflow-hidden pointer-events-none">
@@ -150,10 +150,10 @@ const News = () => {
           <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse delay-500"></div>
         </div> */}
 
-        <div className="relative z-10 mt-15 container mx-auto px-4 py-12">
+        <div className="relative z-10  mt-15 py-12">
           {/* Header */}
           <div className="text-center mb-12 transition-all duration-700 opacity-100 translate-y-0">
-            <h1 className="font-orbitron text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent">
+            <h1 className="font-orbitron text-4xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent">
               NEWS & ANNOUNCEMENTS
             </h1>
             <div className="h-1 w-48 mx-auto bg-gradient-to-r from-pink-500 to-cyan-500 rounded-full mb-4"></div>

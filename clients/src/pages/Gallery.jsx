@@ -318,14 +318,45 @@ const galleryItems = [
   url: "/FDPEvent/a5.jpg",
   description: "The last few captured memories of the day, marking the end of an enriching FDP experience."
 },
+{
+  id: 39,
+  title: "Inkfluence 1.0 – Opening Ceremony",
+  category: "Inkfluence 1.0",
+  tags: ["event launch", "college fest", "creativity begins"],
+  url: "/Inkfluence/a.jpeg",
+  description: "The grand opening of Inkfluence 1.0, where imagination met innovation. Students gathered with enthusiasm to kickstart a day filled with art, creativity, and expression."
+},
+{
+  id: 40,
+  title: "Creative Showcase & Competitions",
+  category: "Inkfluence 1.0",
+  tags: ["art exhibition", "design contest", "talent show"],
+  url: "/Inkfluence/b.jpeg",
+  description: "A vibrant display of student talent through sketches, digital art, and live performances. Each creation reflected unique perspectives and limitless imagination."
+},
+{
+  id: 41,
+  title: "Workshops & Interactive Sessions",
+  category: "Inkfluence 1.0",
+  tags: ["learning", "art workshop", "community"],
+  url: "/Inkfluence/c.jpeg",
+  description: "Hands-on sessions where participants explored artistic techniques, creative writing, and design thinking under expert guidance — inspiring minds to think beyond boundaries."
+},
+{
+  id: 42,
+  title: "Closing Ceremony & Recognition",
+  category: "Inkfluence 1.0",
+  tags: ["awards", "celebration", "success"],
+  url: "/Inkfluence/d.jpeg",
+  description: "A heartfelt conclusion to Inkfluence 1.0, honoring winners, participants, and organizers for their creativity and passion that made the event a resounding success."
+},
 
 
 ];
 
 
 
-  const categories = ['All', 'Interaction Day' , 'FDP Event' , 'Exhibition Day', 'Training Session' , 'Internal Discussion' , 'Codeconvas 1.0' , ' Inkfluence 1.0' ]
-
+  const categories = ['Interaction Day' , 'FDP Event' , 'Exhibition Day', 'Training Session' , 'Internal Discussion' , 'Codeconvas 1.0' , 'Inkfluence 1.0' ]
   // Filter items based on search and category
   const filteredItems = galleryItems.filter(item => {
     const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory

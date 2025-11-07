@@ -60,45 +60,52 @@ const Footer = () => {
                     
                     {/* Quick Links */}
                     <div className="text-center md:text-left">
-                        <h4 className="text-xl font-semibold text-slate-100 mb-6 relative inline-block">
-                            Quick Links
-                            <span className="absolute -bottom-2 left-0 w-8 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></span>
-                        </h4>
-                        <ul className="space-y-3">
-                            {['about', 'Projects','Blog','calendar' ,  'Gallery', 'Membership'].map((item) => (
-                                <li key={item} className="transition-all duration-300 hover:translate-x-1">
-                                    <a 
-                                        href={item} 
-                                        className="text-slate-400 flex items-center justify-center md:justify-start gap-2 py-2 transition-all duration-300 hover:text-blue-500 hover:pl-2 rounded-md group"
-                                    >
-                                        <span className="w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 group-hover:w-3"></span>
-                                        {item}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                    
+  <h4 className="text-xl font-semibold text-slate-100 mb-6 relative inline-block">
+    Quick Links
+    <span className="absolute -bottom-2 left-0 w-8 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></span>
+  </h4>
+
+  <ul className="grid grid-cols-2 md:grid-cols-1 gap-3">
+    {['about', 'Projects', 'Blog', 'calendar', 'Gallery', 'Membership'].map((item) => (
+      <li key={item} className="transition-all duration-300 hover:translate-x-1">
+        <a
+          href={item}
+          className="text-slate-400 flex items-center justify-center md:justify-start gap-2 py-2 transition-all duration-300 hover:text-blue-500 hover:pl-2 rounded-md group"
+        >
+          <span className="w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 group-hover:w-3"></span>
+          {item}
+        </a>
+      </li>
+    ))}
+  </ul>
+</div>
+
                     {/* Resources */}
-                    <div className="text-center md:text-left">
-                        <h4 className="text-xl font-semibold text-slate-100 mb-6 relative inline-block">
-                            Resources
-                            <span className="absolute -bottom-2 left-0 w-8 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></span>
-                        </h4>
-                        <ul className="space-y-3">
-                            {['Research Papers', 'Tutorials', 'Documentation', 'News & Updates', 'Community'].map((item) => (
-                                <li key={item} className="transition-all duration-300 hover:translate-x-1">
-                                    <a 
-                                        href="#" 
-                                        className="text-slate-400 flex items-center justify-center md:justify-start gap-2 py-2 transition-all duration-300 hover:text-blue-500 hover:pl-2 rounded-md group"
-                                    >
-                                        <span className="w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 group-hover:w-3"></span>
-                                        {item}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+
+
+                 <div className="text-center md:text-left">
+  <h4 className="text-xl font-semibold text-slate-100 mb-6 relative inline-block">
+    Resources
+    <span className="absolute -bottom-2 left-0 w-8 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></span>
+  </h4>
+
+  <ul className="grid grid-cols-2 md:grid-cols-1 gap-3">
+    {['Research Papers', 'Tutorials', 'Documentation', 'News & Updates', 'Community'].map((item) => (
+      <li key={item} className="transition-all duration-300 hover:translate-x-1">
+        <a
+          href={item}
+          className="text-slate-400 flex items-center justify-center md:justify-start gap-2 py-2 transition-all duration-300 hover:text-blue-500 hover:pl-2 rounded-md group"
+        >
+          <span className="w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 group-hover:w-3"></span>
+          {item}
+        </a>
+      </li>
+    ))}
+  </ul>
+</div>
+
+                    
+                  
                     
                     {/* Contact */}
                     <div className="text-center md:text-left">
