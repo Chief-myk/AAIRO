@@ -350,13 +350,61 @@ const Gallery = () => {
       url: "/Inkfluence/d.jpeg",
       description: "A heartfelt conclusion to Inkfluence 1.0, honoring winners, participants, and organizers for their creativity and passion that made the event a resounding success."
     },
+//     {
+//   id: 43,
+//   title: "CodeCanvas 1.0 – Event Kickoff",
+//   category: "CodeCanvas 1.0",
+//   tags: ["ai art", "poster making", "innovation"],
+//   url: "/CodeCanvas/a.jpeg",
+//   description: "The grand opening of CodeCanvas 1.0 — where imagination met technology. Students gathered to showcase futuristic ideas through creative posters on AI and robotics."
+// },
+{
+  id: 44,
+  title: "Designing the Future – Creative in Action",
+  category: "CodeCanvas 1.0",
+  tags: ["creativity", "future tech", "robotics art"],
+  url: "/CodeCanvas/b.jpeg",
+  description: "Participants poured their visions of the future onto canvas, depicting next-gen robots, artificial intelligence, and human-machine synergy with stunning creativity."
+},
+{
+  id: 45,
+  title: "Students Bringing Robots to Life",
+  category: "CodeCanvas 1.0",
+  tags: ["ai vision", "student innovation", "tech art"],
+  url: "/CodeCanvas/c.jpeg",
+  description: "Young innovators showcased posters that redefined the boundaries of art and technology — transforming imagination into visual stories of AI-driven worlds."
+},
+{
+  id: 46,
+  title: "Art Meets Algorithm – Poster Display",
+  category: "CodeCanvas 1.0",
+  tags: ["digital art", "ai posters", "creative minds"],
+  url: "/CodeCanvas/d.jpeg",
+  description: "A visual treat where students’ artistic brilliance merged with futuristic concepts, portraying how AI and robotics could shape the world ahead."
+},
+{
+  id: 47,
+  title: "Judgment & Interaction Session",
+  category: "CodeCanvas 1.0",
+  tags: ["evaluation", "tech event", "creativity showcase"],
+  url: "/CodeCanvas/e.jpeg",
+  description: "Judges and participants engaged in interactive sessions discussing ideas, designs, and inspirations behind each futuristic poster creation."
+},
+{
+  id: 48,
+  title: "CodeCanvas 1.0 – Winners & Celebration",
+  category: "CodeCanvas 1.0",
+  tags: ["winners", "recognition", "ai art fest"],
+  url: "/CodeCanvas/f.jpeg",
+  description: "The event concluded with appreciation and awards for outstanding creativity, honoring the brilliant young minds who envisioned the future through art and AI."
+},
 
 
   ];
 
 
 
-  const categories = ['Interaction Day', 'FDP Event', 'Exhibition Day', 'Training Session', 'Internal Discussion', 'Codeconvas 1.0', 'Inkfluence 1.0']
+  const categories = ['Interaction Day', 'FDP Event', 'Exhibition Day', 'Training Session', 'Internal Discussion', 'CodeCanvas 1.0', 'Inkfluence 1.0']
   // Filter items based on search and category
   const filteredItems = galleryItems.filter(item => {
     const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory
