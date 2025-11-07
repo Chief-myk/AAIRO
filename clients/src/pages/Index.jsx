@@ -524,7 +524,7 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
 
       <div className="text-center bg-[#0a0e1a]">
         <div className="p-12">
-          <h3 className="text-6xl font-bold mb-6 text-[hsl(180,100%,50%)]">Want to Join Our Team?</h3>
+          <h3 className="text-3xl md:text-5xl font-bold mb-6 text-[hsl(180,100%,50%)]">Want to Join Our Team?</h3>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto text-lg">We're always looking for passionate individuals who want to make a difference in the tech world. Join us and be part of something extraordinary.</p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <div className="inline-flex items-center rounded-full border px-8 py-3 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-secondary/80 bg-[hsl(180,100%,50%,0.2)] text-[hsl(180,100%,50%)]">Innovation</div>

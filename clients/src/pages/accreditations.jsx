@@ -105,7 +105,7 @@ const Accreditations = () => {
                     </div>
 
                     {/* Further to be added */}
-                    <div className="mb-16">
+                    {/* <div className="mb-16">
                         <h2 className="text-4xl font-bold mb-8 text-[#f1f5f9] text-center">Achievements & Recognition</h2>
                         <div className="grid gap-4">
                             <div className="bg-[rgba(30,41,59,0.3)] border border-[rgba(59,130,246,0.2)] rounded-2xl p-6 flex items-center gap-6 transition-all duration-300 ease-in-out hover:border-[#3b82f6] hover:translate-x-[10px]">
@@ -142,7 +142,7 @@ const Accreditations = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </div>
