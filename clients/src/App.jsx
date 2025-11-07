@@ -13,6 +13,7 @@ import Membership from "./pages/membership";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact"
 import PageNotFound from "./components/PageNotFound";
+import News from "./pages/News";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -43,6 +44,7 @@ const App = () => {
         <Route path="/membership" element={<Membership />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/news" element={<News />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
       <Footer />

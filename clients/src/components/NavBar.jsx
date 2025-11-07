@@ -60,6 +60,9 @@ const NavBar = () => {
               <Link to="/calendar" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 Calendar
               </Link>
+              <Link to="/news" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
+                News
+              </Link>
               <Link to="/accreditations" className="text-slate-200 font-medium text-base relative py-2 no-underline hover:text-blue-500 transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 after:transition-all after:duration-300 hover:after:w-full">
                 Accreditations
               </Link>
@@ -134,6 +137,13 @@ const NavBar = () => {
           onClick={closeMobileMenu}
         >
           Calendar
+        </Link>
+        <Link 
+          to="/news" 
+          className="text-slate-200 py-5 border-b border-blue-500 border-opacity-10 text-lg font-medium transition-all duration-300 no-underline hover:text-blue-500 hover:pl-4 hover:bg-blue-500 hover:bg-opacity-5"
+          onClick={closeMobileMenu}
+        >
+          News
         </Link>
         <Link 
           to="/accreditations" 

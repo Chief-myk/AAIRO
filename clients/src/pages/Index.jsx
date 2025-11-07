@@ -238,7 +238,7 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
             </div>
 
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 lg:mb-8 leading-tight bg-gradient-to-r from-white to-[#cbd5e1] bg-clip-text text-transparent">
-              Inspiring the Future with<br className="hidden sm:block" />
+              Inspiring the Future with <br className="hidden sm:block" />
               <span className="bg-gradient-to-r from-[#3b82f6] via-[#8b5cf6] to-[#ec4899] bg-clip-text text-transparent bg-[length:200%_200%] animate-[gradient-shift_6s_ease_infinite]">
                 Artificial Intelligence & Robotics
               </span>
@@ -381,7 +381,7 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
               <p className="mb-2"><strong>Founder Faculty Member:</strong> Dr. Pardeep Rohilla, Associate Professor</p>
               <p className="mb-2"><strong>Faculty Advisor:</strong> Mr. Neeraj Singh, HOD(Mechanical)</p>
               <p className="mb-2"><strong>Faculty Advisor:</strong> Dr. Deepak Bhardwaj, Mechanical Professor</p>
-              <p className="mb-2"><strong>President:</strong> Kartik</p>
+              <p className="mb-2"><strong>President:</strong> Kartik Arora, 4th year, CSE Deptt.</p>
             </div>
             <div className="grid gap-6 relative pl-8 before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-gradient-to-b before:from-transparent before:via-[#3b82f6] before:to-transparent">
               <div className="flex items-start gap-6 p-6 bg-[rgba(30,41,59,0.3)] rounded-xl border border-[rgba(59,130,246,0.1)] transition-all duration-300 hover:bg-[rgba(59,130,246,0.1)] hover:translate-x-2">

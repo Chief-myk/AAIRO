@@ -37,7 +37,7 @@ const Contact = () => {
                 <div>
                   <h3 className='font-medium text-gray-400'>Email</h3>
                   <a href="mailto:aairo.contact@gmail.com" className='text-blue-400 hover:underline'>
-                    aairo.contact@gmail.com
+                   aairosociety@gmail.com
                   </a>
                 </div>
               </div>
@@ -61,9 +61,9 @@ const Contact = () => {
                 <div>
                   <h3 className='font-medium text-gray-400'>Address</h3>
                   <p className='text-gray-300'>
-                    Basement, 2nd Block<br />
+                    4th Block, lower ground<br />
                     Dr. Akhilesh Das Gupta Institute of Professional Studies<br />
-                    Shasrit Park, Delhi-110053
+                    Shastri Park, Delhi-110053
                   </p>
                 </div>
               </div>

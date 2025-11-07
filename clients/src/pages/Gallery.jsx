@@ -324,7 +324,7 @@ const galleryItems = [
 
 
 
-  const categories = ['all', 'Interaction Day' , 'FDP Event' , 'Exhibition Day', 'Training Session' , 'Internal Discussion' , ]
+  const categories = ['All', 'Interaction Day' , 'FDP Event' , 'Exhibition Day', 'Training Session' , 'Internal Discussion' , 'Codeconvas 1.0' , ' Inkfluence 1.0' ]
 
   // Filter items based on search and category
   const filteredItems = galleryItems.filter(item => {
@@ -386,64 +386,75 @@ const galleryItems = [
       {/* Header */}
       <div className="backdrop-blur-md bg-black/20 border-b border-white/10 sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-6 py-5">
-          <div className="flex pt-2 flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-            {/* <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Enhanced Gallery
-            </h1> */}
-            
-            <div className="flex flex-col sm:flex-row gap-4">
-              {/* Search */}
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
-                <input
-                  type="text"
-                  placeholder="Search images..."
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl pl-10 pr-4 py-2 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent w-full sm:w-64 transition-all duration-300"
-                />
-              </div>
-              
-              {/* View Mode Toggle */}
-              <div className="flex  bg-white/10 backdrop-blur-md rounded-xl border border-white/20 overflow-hidden">
-                <button
-                  onClick={() => setViewMode('grid')}
-                  className={`px-4 py-2 transition-all cursor-pointer duration-300 ${
-                    viewMode === 'grid'  
-                      ? 'bg-purple-500 text-white' 
-                      : 'text-gray-300 hover:text-white hover:bg-white/10'
-                  }`}
-                >
-                  <Grid className="w-5 h-5" />
-                </button>
-                <button
-                  onClick={() => setViewMode('list')}
-                  className={`px-4 py-2 transition-all cursor-pointer duration-300 ${
-                    viewMode === 'list' 
-                      ? 'bg-purple-500 text-white' 
-                      : 'text-gray-300 hover:text-white hover:bg-white/10'
-                  }`}
-                >
-                  <List className="w-5 h-5" />
-                </button>
-              </div>
-            </div>
-          <div className="flex flex-wrap gap-2 mt-4">
-            {categories.map(category => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
-                  selectedCategory === category
-                    ? 'bg-gradient-to-r from-purple-500 cursor-pointer to-pink-500 text-white shadow-lg shadow-purple-500/25'
-                    : 'bg-white/10 text-gray-300 cursor-pointer hover:bg-white/20 hover:text-white border border-white/20'
-                }`}
-              >
-                {category.charAt(0).toUpperCase() + category.slice(1)}
-              </button>
-            ))}
-          </div>
-          </div>
+        <div className="flex flex-col gap-6 pt-2">
+  {/* Top Controls */}
+  <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
+    <div className="flex flex-col sm:flex-row items-center gap-4">
+      {/* Search */}
+      {/* <div className="relative w-full sm:w-64">
+        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+        <input
+          type="text"
+          placeholder="Search images..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl pl-10 pr-4 py-2 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent w-full transition-all duration-300"
+        />
+      </div> */}
+
+      {/* View Mode Toggle */}
+      {/* <div className="flex bg-white/10 backdrop-blur-md rounded-xl border border-white/20 overflow-hidden">
+        <button
+          onClick={() => setViewMode('grid')}
+          className={`px-4 py-2 transition-all duration-300 ${
+            viewMode === 'grid'
+              ? 'bg-purple-500 text-white'
+              : 'text-gray-300 hover:text-white hover:bg-white/10'
+          }`}
+        >
+          <Grid className="w-5 h-5" />
+        </button>
+        <button
+          onClick={() => setViewMode('list')}
+          className={`px-4 py-2 transition-all duration-300 ${
+            viewMode === 'list'
+              ? 'bg-purple-500 text-white'
+              : 'text-gray-300 hover:text-white hover:bg-white/10'
+          }`}
+        >
+          <List className="w-5 h-5" />
+        </button>
+      </div> */}
+    </div>
+  </div>
+
+  {/* Bubble Category Layout */}
+  <div
+    className="flex flex-wrap justify-center gap-4 md:gap-6 "
+    style={{
+      rowGap: '1rem',
+      columnGap: '1.5rem',
+    }}
+  >
+    {categories.map((category, i) => (
+      <button
+        key={category}
+        onClick={() => setSelectedCategory(category)}
+        style={{
+          transform: `scale(${1 + (Math.random() * 0.2 - 0.1)}) rotate(${Math.random() * 4 - 2}deg)`,
+        }}
+        className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-110 ${
+          selectedCategory === category
+            ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-lg shadow-purple-500/30'
+            : 'bg-white/10 text-gray-300 hover:bg-white/20 hover:text-white border border-white/20'
+        }`}
+      >
+        {category}
+      </button>
+    ))}
+  </div>
+</div>
+
           
           {/* Category Filter */}
         </div>
